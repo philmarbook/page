@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/page/static/css/main.d376105d.css",
-    "main.js": "/page/static/js/main.9022773a.js",
+    "main.css": "/page/static/css/main.e381fcfc.css",
+    "main.js": "/page/static/js/main.8cdeac6a.js",
     "static/media/background.jpg": "/page/static/media/background.7abfa1000869e2827a43.jpg",
     "static/media/princesse-data.jpg": "/page/static/media/princesse-data.87749b791007af66a813.jpg",
     "static/media/leve-toi-et-code.jpg": "/page/static/media/leve-toi-et-code.50c6cbbb533e1e25cd71.jpg",
     "index.html": "/page/index.html",
-    "main.d376105d.css.map": "/page/static/css/main.d376105d.css.map",
-    "main.9022773a.js.map": "/page/static/js/main.9022773a.js.map"
+    "main.e381fcfc.css.map": "/page/static/css/main.e381fcfc.css.map",
+    "main.8cdeac6a.js.map": "/page/static/js/main.8cdeac6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d376105d.css",
-    "static/js/main.9022773a.js"
+    "static/css/main.e381fcfc.css",
+    "static/js/main.8cdeac6a.js"
   ]
 }
