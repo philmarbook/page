@@ -1,0 +1,39 @@
+$primary-color: #333;       // Define your primary color
+$hover-color: #007bff;      // Define your hover color
+
+.header {
+    padding: 20px 0;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $primary-color;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tab {
+    cursor: pointer;
+}
