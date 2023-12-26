@@ -1,9 +1,14 @@
+import '../assets/scss/pages/NotFound.scss';
+
 function NotFound() {
     return(
-        <div>
-        <h1>404</h1>
-        <p>Oups! La page que vous demandez n'existe pas.</p>
-    </div>
+        <div className='error'>
+            <div className='error--container'>
+                <p className="error--container--404">404</p>
+                <p className="error--container--message">Oups! La page que vous demandez n'existe pas. 😵</p>
+                <a className="error--container--go-gome" href="./">Retourner à l'accueil</a>
+            </div>
+        </div>
     )
 }
 
