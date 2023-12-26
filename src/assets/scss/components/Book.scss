@@ -1,0 +1,26 @@
+.book {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 3rem;
+
+    &-image {
+        max-width: 20rem; /* adjust this value as needed, 12.5rem is equivalent to 200px if the root font-size is 16px */
+        height: auto; /* maintain the aspect ratio */
+        display: block; /* to enable margin auto */
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    &-title,
+    &-price,
+    &-button {
+        margin: 0 auto; /* center these elements */
+    }
+
+    &-caption {
+        margin-left: 2rem; /* adjust as needed */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
