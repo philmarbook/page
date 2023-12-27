@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/philmarbook/static/css/main.6cf6b48a.css",
-    "main.js": "/philmarbook/static/js/main.7213061d.js",
+    "main.css": "/philmarbook/static/css/main.7e78add5.css",
+    "main.js": "/philmarbook/static/js/main.afa9805a.js",
     "static/media/background.jpg": "/philmarbook/static/media/background.7abfa1000869e2827a43.jpg",
     "static/media/princesse-data.jpg": "/philmarbook/static/media/princesse-data.87749b791007af66a813.jpg",
     "static/media/leve-toi-et-code.jpg": "/philmarbook/static/media/leve-toi-et-code.50c6cbbb533e1e25cd71.jpg",
     "index.html": "/philmarbook/index.html",
-    "main.6cf6b48a.css.map": "/philmarbook/static/css/main.6cf6b48a.css.map",
-    "main.7213061d.js.map": "/philmarbook/static/js/main.7213061d.js.map"
+    "main.7e78add5.css.map": "/philmarbook/static/css/main.7e78add5.css.map",
+    "main.afa9805a.js.map": "/philmarbook/static/js/main.afa9805a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cf6b48a.css",
-    "static/js/main.7213061d.js"
+    "static/css/main.7e78add5.css",
+    "static/js/main.afa9805a.js"
   ]
 }
