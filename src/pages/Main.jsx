@@ -6,18 +6,8 @@ import Events from './tabs/Events';
 import Contact from './tabs/Contact'; 
 import '../assets/scss/pages/Main.scss';
 import { Link } from 'react-scroll';
+import philmarImage from '../assets/images/philmar.jpeg';
 
-const bioCaption = `	Depuis 40 ans Philmar est musicien et en a fait très vite sa profession. Ayant parcouru les univers musicaux rock, jazz, musiques du monde, il a joué en solo et dans différents groupes, et accompagné d'autres artistes. Multi-instrumentiste et chanteur, il a enregistré des albums et animé des stages sur différentes thématiques et pour différents publics.
-
-Sur la même période de 40 ans Philmar a aussi écrit régulièrement, sans en diffuser les créations hormis par des chansons.
-Posant un regard curieux sur le monde et les Humains, et sensible au quotidien et dans ses relations, il a trouvé dans les mots une des formes artistiques lui permettant de transposer et magnifier ces vécus. Philmar a ainsi exprimé dans ses poèmes, ses paroles de chansons, ses nouvelles et ses essais, des visions à la fois personnelles et universelles, nourries aussi de lectures littéraires ou de sciences humaines en autodidacte. La nature est aussi une source d'inspiration importante pour lui, ainsi que l'étude et le conseil en astrologie.
-il exprime ainsi des réflexions, des ressentis, des images poétiques, pouvant inspirer tout lecteur.
-
-Choisissant l'auto-édition pour la liberté littéraire et l'indépendance éditoriale, ses 2 premiers livres ont pu être édités grâce au fort succès d'un financement participatif.
-
-Philmar poursuit ses activités dans plusieurs projets musicaux, artistiques, astrologiques et d'écriture.
-
-`
 
 function Main() {
     return (
@@ -36,14 +26,14 @@ function Main() {
 
             <div id="home"><Home/></div>
             <div id="books"><Books /></div>
-            <div id="bio">
-                <Bio caption={bioCaption}/>
-            </div>
+            <div id="bio"><Bio
+            srcImage={philmarImage}
+            /></div>
             <div id="events"><Events /></div>
             <div id="contact"><Contact /></div>
 
             <footer className="footer">
-                <p>© Copyright Philmar All Rights Reserved</p>
+                <p>© Copyright PhilmarZic All Rights Reserved</p>
             </footer>
         </>
     );
