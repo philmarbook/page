@@ -1,0 +1,58 @@
+// Contact.scss
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.contact-title {
+    color: #333;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    font-size: 30px;
+
+    &:hover {
+        text-shadow: 2px 2px 4px #fff023;
+        transform: scale(1.02);
+        cursor: default;
+    }
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
