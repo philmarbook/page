@@ -1,7 +1,11 @@
-function Bio() {
+import '../../assets/scss/pages/tabs/Bio.scss';
+
+function Bio({ caption }) {
     return(
-        <p>la bio</p>
+        <div className="caption">
+            <p className="bio-text">{caption}</p>
+        </div>
     )
 }
 
-export default Bio
+export default Bio;
