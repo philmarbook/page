@@ -2,27 +2,40 @@ import princesseDataImage from '../../assets/images/princesse-data.jpg';
 import leveToiEtCodeImage from '../../assets/images/leve-toi-et-code.jpg';
 import Book from "../../components/Book";
 
-const princesseDataCaption = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Sit amet est placerat in egestas erat imperdiet sed. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Habitasse platea dictumst vestibulum rhoncus. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Tortor pretium viverra suspendisse potenti. Pharetra convallis posuere morbi leo. Consectetur libero id faucibus nisl tincidunt eget. Et leo duis ut diam quam nulla porttitor. Orci a scelerisque purus semper eget duis at. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Nunc congue nisi vitae suscipit tellus. Arcu dictum varius duis at consectetur lorem. Ultricies mi eget mauris pharetra et ultrices neque ornare. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Nec dui nunc mattis enim ut tellus elementum sagittis. Nibh mauris cursus mattis molestie a iaculis at. Velit egestas dui id ornare arcu odio ut sem. Netus et malesuada fames ac. Tristique nulla aliquet enim tortor at auctor. Semper risus in hendrerit gravida rutrum quisque non. Pulvinar sapien et ligula ullamcorper. Morbi tincidunt ornare massa eget egestas purus. Sapien nec sagittis aliquam malesuada bibendum. Nunc id cursus metus aliquam. Vel pretium lectus quam id leo in vitae turpis massa. A lacus vestibulum sed arcu non odio euismod lacinia. Proin fermentum leo vel orci porta non pulvinar neque. Facilisis gravida neque convallis a. Adipiscing at in tellus integer. Lorem donec massa sapien faucibus et. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Nisi porta lorem mollis aliquam ut porttitor leo a. At consectetur lorem donec massa sapien faucibus et molestie. Massa sed elementum tempus egestas sed sed risus pretium quam. Mattis enim ut tellus elementum sagittis vitae et. Habitant morbi tristique senectus et netus et. Cras tincidunt lobortis feugiat vivamus. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Facilisis volutpat est velit egestas dui id ornare arcu. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Leo in vitae turpis massa. Neque sodales ut etiam sit amet nisl purus. Quis risus sed vulputate odio ut. Pulvinar pellentesque habitant morbi tristique senectus et. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Aliquam ultrices sagittis orci a scelerisque purus. Eu consequat ac felis donec et odio pellentesque diam volutpat. Amet facilisis magna etiam tempor orci. Accumsan tortor posuere ac ut. Nisl nunc mi ipsum faucibus vitae aliquet nec. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Nunc id cursus metus aliquam eleifend mi in nulla posuere. Euismod lacinia at quis risus sed vulputate odio ut. Penatibus et magnis dis parturient montes. Nisi lacus sed viverra tellus in hac habitasse platea. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Placerat orci nulla pellentesque dignissim enim. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Venenatis cras sed felis eget. Sit amet facilisis magna etiam. Euismod quis viverra nibh cras pulvinar. Justo nec ultrices dui sapien eget mi proin sed.`
-const leveToiEtCodeCaption = `.des niorp im tege neipas iud secirtlu cen otsuJ .ranivlup sarc hbin arreviv siuq domsiuE .maite angam sisilicaf tema tiS .tege silef des sarc sitaneneV .im etatupluv des tile rotcua siuq regetni seicirtlu tse mudnebiB .mine missingid euqsetnellep allun icro tarecalP .ue euqsirelecs isin lsin ni nasmucca arreviv surup satsege tegE .aetalp essatibah cah ni sullet arreviv des sucal isiN .setnom tneirutrap sid singam te subitaneP .tu oido etatupluv des susir siuq ta ainical domsiuE .ereusop allun ni im dnefiele mauqila sutem susruc di cnuN .rotcua ca icro sullet non euqsiuq murtur adivarg tirerdneh nI .cen teuqila eativ subicuaf muspi im cnun lsiN .tu ca ereusop rotrot nasmuccA .icro ropmet maite angam sisilicaf temA .taptulov maid euqsetnellep oido te cenod silef ca tauqesnoc uE .surup euqsirelecs a icro sittigas secirtlu mauqilA .euqsirelecs isin lsin ni nasmucca arreviv surup satsege tegE .te sutcenes euqitsirt ibrom tnatibah euqsetnellep ranivluP .tu oido etatupluv des susir siuQ .surup lsin tema tis maite tu selados euqeN .assam siprut eativ ni oeL .iud mutnemref euqsirelecs sitrobol mine siuq maid missingid maite isilicaF .ucra eranro di iud satsege tilev tse taptulov sisilicaF .a sutcel tirerdneh adivarg niorp ranivlup des hbin taigueF .sumaviv taiguef sitrobol tnudicnit sarC .te suten te sutcenes euqitsirt ibrom tnatibaH .te eativ sittigas mutnemele sullet tu mine sittaM .mauq muiterp susir des des satsege supmet mutnemele des assaM .eitselom te subicuaf neipas assam cenod merol rutetcesnoc tA .a oel rotittrop tu mauqila sillom merol atrop isiN .arreviv euqsirelecs cnun tege susruc anru sitanenev tema tis minE .te subicuaf neipas assam cenod meroL .regetni sullet ni ta gnicsipidA .a sillavnoc euqen adivarg sisilicaF .euqen ranivlup non atrop icro lev oel mutnemref niorP .ainical domsiue oido non ucra des mulubitsev sucal A .assam siprut eativ ni oel di mauq sutcel muiterp leV .mauqila sutem susruc di cnuN .mudnebib adauselam mauqila sittigas cen neipaS .surup satsege tege assam eranro tnudicnit ibroM .reprocmallu alugil te neipas ranivluP .non euqsiuq murtur adivarg tirerdneh ni susir repmeS .rotcua ta rotrot mine teuqila allun euqitsirT .ca semaf adauselam te suteN .mes tu oido ucra eranro di iud satsege tileV .ta silucai a eitselom sittam susruc siruam hbiN .sittigas mutnemele sullet tu mine sittam cnun iud ceN .sucal isin des essidnepsus eranro subicuaf surup eativ rotroT .eranro euqen secirtlu te arterahp siruam tege im seicirtlU .merol rutetcesnoc ta siud suirav mutcid ucrA .sullet tipicsus eativ isin eugnoc cnuN .eativ rutibaruc mutnemele eativ ucra mudnebib adauselam mauqila sittigaS .ta siud tege repmes surup euqsirelecs a icrO .rotittrop allun mauq maid tu siud oel tE .tege tnudicnit lsin subicuaf di orebil rutetcesnoC .oel ibrom ereusop sillavnoc arterahP .itnetop essidnepsus arreviv muiterp rotroT .ucra des mulubitsev sucal a reprocmallu odommoc ropmeT .isin des essidnepsus eranro subicuaf surup eativ rotrot cA .surup rolod sucnohr rotittrop anru allignirf angam sutcel sitaneneV .sucnohr mulubitsev tsmutcid aetalp essatibaH .surup euqsirelecs a icro sittigas secirtlu mauqila niduticillos ereusop alluN .des teidrepmi tare satsege ni tarecalp tse tema tiS .siprut susruc ni sore secirtlu siruam sutcel mulubitsev tarecalP .auqila angam erolod te erobal tu tnudidicni ropmet domsuie od des ,tile gnicsipida rutetcesnoc ,tema tis rolod muspi meroL`
 
 function Books() {
     return(
         <>
             <div>
-                    <Book
-                    title="Princesse Data"
-                    imageSrc={princesseDataImage}
-                    price="15.00€" url="https://www.pokepedia.fr/Pikachu"
-                    caption={princesseDataCaption}/>
-                </div>
-                <div>
-                    <Book
-                    title="Lève-toi et code"
-                    imageSrc={leveToiEtCodeImage}
-                    price="15.00€"
-                    url="https://www.pokepedia.fr/Mewtwo"
-                    caption={leveToiEtCodeCaption}/>
-                </div>
+                <Book
+                title="Princesse Data 📁"
+                imageSrc={princesseDataImage}
+                price="15.00€"
+                url="https://www.pokepedia.fr/Pikachu"
+                intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs dialogues, descriptions et réflexions?"
+                intro01="Si vous êtes intrigués, vous serez conquis, envoûtés par Les Humains adorent les Histoires."
+                caption00a="Thématique Générale : "
+                caption00b="'Les Humains adorent les Histoires !' est un recueil de nouvelles et d'essais qui explore la fascination des humains pour les récits. Il aborde l'influence des histoires sur notre compréhension du monde, nos émotions, nos expériences et nos choix de vie."
+                caption01a="Style et Expression : "
+                caption01b="L'écriture est engageante et réfléchie, mêlant prose descriptive et analyse introspective pour captiver le lecteur dans le récit et stimuler la réflexion. L'auteur utilise une variété de techniques narratives, avec un style d'écriture à la fois accessible et profond."
+                caption02a="Diversité des Sujets : "
+                caption02b="Le recueil couvre une large gamme d'émotions et d'expériences, depuis l'identité personnelle et collective aux analyses de la culture et de la société, en passant par les mythes et légendes, soulignant le rôle des histoires dans la vie humaine."/>
+            </div>
+            <div>
+                <Book
+                title="Lève-toi et code 💻"
+                imageSrc={leveToiEtCodeImage}
+                price="15.00€"
+                url="https://www.pokepedia.fr/Mewtwo"
+                intro00="Êtes vous prêts à plonger dans les sentiments, les ferveurs, et les rêveries d'un ouvrage qui, tour à tour cisèle les mots ou les impulse?"
+                intro01="Si ça vous interpelle, Mélomorphoses vous touchera profondément."
+                caption00a="Thématique Générale : "
+                caption00b="'Mélomorphoses' est un recueil de poèmes et de chansons qui traite de thèmes introspectifs et universels. Il explore la profondeur des sentiments humains, la beauté de la création artistique, et la relation complexe entre l'homme et le monde qui l'entoure."
+                caption01a="Style et Expression : "
+                caption01b="Les textes sont écrits avec une touche lyrique et métaphorique, invitant à une réflexion sur des sujets tels que l'existence, l'amour, et la quête de sens. L'utilisation des images poétiques enrichit l'expression des émotions et des idées."
+                caption02a="Diversité des Sujets : "
+                caption02b="Le recueil semble couvrir un large éventail de sujets, allant de l'exploration personnelle à la contemplation de la nature et de l'univers, en passant par la célébration de l'art et de la créativité."/>
+            </div>
         </>
     )
 }
