@@ -14,11 +14,11 @@ function Contact() {
                     <a href="tel:+33123456789" className="contact-link">+33 6 28 06 07 56</a>
                 </li>
                 <li className="contact-item">
-                    <span className="contact-label">🖊️ WhatsApp : </span> 
+                    <span className="contact-label">💬 WhatsApp : </span> 
                     <a href="https://wa.me/33628060756" className="contact-link">Envoyer un message</a>
                 </li>
                 <li className="contact-item">
-                    <span className="contact-label">🔪 Telegram : </span> 
+                    <span className="contact-label">💬 Telegram : </span> 
                     <a href="https://t.me/philmarzic" className="contact-link">Envoyer un message</a>
                 </li>
                 <li className="contact-item">
