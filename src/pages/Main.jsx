@@ -6,7 +6,7 @@ import Events from './tabs/Events';
 import Contact from './tabs/Contact'; 
 import '../assets/scss/pages/Main.scss';
 import { Link } from 'react-scroll';
-import philmarImage from '../assets/images/philmar.jpeg';
+import philmarImage from '../assets/images/philmar.png';
 
 
 function Main() {
