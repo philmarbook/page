@@ -9,7 +9,7 @@ function Bio({srcImage}) {
                 <p>En parallèle de sa carrière musicale, Philmar s'est également consacré à l'écriture depuis 40 ans, bien qu'il n'ait diffusé ses créations qu'à travers ses chansons. Observateur curieux du monde et des êtres humains, et doté d'une sensibilité particulière dans ses relations quotidiennes, il a trouvé dans les mots un moyen d'exprimer et de magnifier ses expériences. À travers ses poèmes, paroles de chansons, nouvelles et essais, Philmar partage des visions personnelles et universelles, enrichies de ses lectures en littérature et en sciences humaines en tant qu'autodidacte. La nature est une source d'inspiration majeure pour lui, tout comme l'astrologie, domaine dans lequel il étudie et conseille. Ses œuvres littéraires offrent des réflexions, des sentiments et des images poétiques susceptibles d'inspirer tout lecteur.</p>
                 <p>Privilégiant l'auto-édition pour sa liberté littéraire et son indépendance éditoriale, Philmar a pu publier ses deux premiers livres grâce au succès d'un financement participatif.</p>
                 <p>En tant que co-fondateur il est très impliqué dans la mise en place concrète de l'écolieu Art-Terre en Savoie.</p>
-                <p>Philmar poursuit son engagement dans ce projet, et continue de mener plusieurs projets dans les domaines de la musique, de l'astrologie et de l'écriture.</p>
+                <p>Philmar poursuit son engagement dans ce projet, et continue de mener plusieurs projets dans les domaines de la musique, de l'astrologie et de l'écriture.</p>
             </div>
             <div className='bio-image'>
                 <img className="bio-image-file" src={srcImage} alt="Philmar"></img>
