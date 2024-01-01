@@ -74,9 +74,46 @@
         margin-bottom: 14rem;
         transition: transform 0.2s;
 
-        &-text {
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+        &-top {
+            &-text {
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            }
         }
+
+        &-bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &-titles {
+                width: 50rem;
+                &-text {
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+                }
+            }
+
+            &-bulletpoints {
+                margin: 1rem 1rem 0 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                &-text {
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+                    font-size: 20px;
+                    transition: transform 0.2s;
+
+                    &:hover {
+                        text-shadow: 2px 2px 4px #fff023;
+                        transform: scale(1.02);
+                        cursor: default;
+                    }
+                }
+
+            }
+        }
+
+        
 
         p {
             margin: 0.3rem;
