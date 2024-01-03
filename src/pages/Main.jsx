@@ -26,6 +26,9 @@ function Main() {
 
             <div id="home"><Home/></div>
             <div id="books"><Books /></div>
+            <div id='bio-title'>
+                <h2>Biographie</h2>
+            </div>
             <div id="bio"><Bio
             srcImage={philmarImage}
             /></div>
