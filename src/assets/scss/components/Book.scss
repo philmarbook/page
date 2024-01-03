@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 0 3rem 0 3rem;
+    margin: 0 3rem;
 
     &-image {
         max-width: 20rem; 
         height: auto;
         display: block; 
-        margin: 1rem 2rem 1rem 2rem;
+        margin: 1rem 2rem;
         transition: transform 0.2s;
         border-radius: 6px;
 
@@ -86,17 +86,17 @@
             justify-content: space-between;
 
             &-titles {
-                width: 50rem;
                 &-text {
                     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
                 }
             }
 
             &-bulletpoints {
-                margin: 1rem 1rem 0 1rem;
+                margin: 1rem 1rem 0 5rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                min-width: 25rem;
                 
                 &-text {
                     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -117,40 +117,100 @@
 
         p {
             margin: 0.3rem;
-        }
-
-        #book-caption-part0a,
-        #book-caption-part0b {
-            font-size: 25px;
-            font-weight: 400;
-        }
-
-        #book-caption-part0b {
-            margin-bottom: 3rem;
-            font-weight: 500;
-        }
-
-        #book-caption-part1aa,
-        #book-caption-part1ba,
-        #book-caption-part1ca {
-            font-weight: 600;
-            margin-top: 1rem;
-            transition: transform 0.2s;
-            cursor: default;
-            
-            &:hover {
-                text-shadow: 2px 2px 4px #fff023;
-                transform: scale(1.02);
             }
+
+            #book-caption-part0a,
+            #book-caption-part0b {
+                font-size: 25px;
+                font-weight: 400;
+            }
+
+            #book-caption-part0b {
+                margin-bottom: 3rem;
+                font-weight: 500;
+            }
+
+            #book-caption-part1aa,
+            #book-caption-part1ba,
+            #book-caption-part1ca {
+                font-weight: 600;
+                margin-top: 1rem;
+                transition: transform 0.2s;
+                cursor: default;
+            
+                &:hover {
+                    text-shadow: 2px 2px 4px #fff023;
+                    transform: scale(1.02);
+                }
+            }
+
+            #book-caption-part1aa,
+            #book-caption-part1ab,
+            #book-caption-part1ba,
+            #book-caption-part1bb,
+            #book-caption-part1ca,
+            #book-caption-part1cb {
+                font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .book {
+        &-caption {
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .book {
+        flex-direction: column;
+
+        #book-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        #book-caption-part1aa,
-        #book-caption-part1ab,
-        #book-caption-part1ba,
-        #book-caption-part1bb,
-        #book-caption-part1ca,
-        #book-caption-part1cb {
-            font-size: 18px;
+        &-caption {
+            margin-bottom: 4rem;
+        }
+
+        &-button {
+            margin-top: 1.5rem;
+            height: 6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .book {
+
+        &-caption {
+            margin-left: 0;
+
+            &-bottom {
+                flex-direction: column;
+
+                &-bulletpoints {
+                    margin: 3rem 0 0 0;
+
+                    &-text {
+                        font-size: 24px;
+                    }
+                    
+                }
+            }
+
+            #book-caption-part1aa,
+            #book-caption-part1ab,
+            #book-caption-part1ba,
+            #book-caption-part1bb,
+            #book-caption-part1ca,
+            #book-caption-part1cb {
+                font-size: 20px;
+            }
         }
     }
 }

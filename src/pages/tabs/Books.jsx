@@ -6,7 +6,7 @@ import Book from "../../components/Book";
 function Books() {
     return(
         <>
-            <div>
+            <div className='books'>
                 <Book
                 title="Les humains adorent les histoires ! 📖"
                 imageSrc={princesseDataImage}
@@ -28,7 +28,7 @@ function Books() {
                 bulletpoint4="📌 Papier Intérieur : Bouffant 90g blanc"
                 bulletpoint5="📌 Pelliculage Couverture : Brillant"/>
             </div>
-            <div>
+            <div className='books'>
                 <Book
                 title="Mélomorphoses 💫"
                 imageSrc={leveToiEtCodeImage}

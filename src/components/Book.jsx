@@ -3,7 +3,7 @@ import '../assets/scss/components/Book.scss';
 function Book({ title, imageSrc, bookPrice, epubPrice, url,intro00 ,intro01, caption00a, caption00b, caption01a, caption01b, caption02a, caption02b, bulletpoint0, bulletpoint1, bulletpoint2, bulletpoint3, bulletpoint4, bulletpoint5 }) {
     return (
         <div className="book">
-            <div>
+            <div id="book-container">
                 <h1 className="book-title">{title}</h1>
                 <img className="book-image" src={imageSrc} alt={title} />
                 <p className="book-price">{bookPrice}</p>

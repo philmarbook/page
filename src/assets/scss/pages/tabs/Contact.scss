@@ -1,5 +1,4 @@
-// Contact.scss
-.contact-container {
+.contact {
     max-width: 600px;
     margin: 0 auto;
     padding: 3rem;
@@ -7,53 +6,67 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.5);
 
-}
+    &-title {
+        color: #333;
+        text-align: center;
+        margin: 0 0 2rem 0;
+        font-size: 30px;
+        transition: transform 0.2s;
 
-.contact-title {
-    color: #333;
-    text-align: center;
-    margin: 0 0 2rem 0;
-    font-size: 30px;
-    transition: transform 0.2s;
+        &:hover {
+            text-shadow: 2px 2px 4px #fff023;
+            transform: scale(1.02);
+            cursor: default;
+        }
+    }
 
-    &:hover {
-        text-shadow: 2px 2px 4px #fff023;
-        transform: scale(1.02);
-        cursor: default;
+    &-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+
+            &-label {
+                font-weight: bold;
+                color: #555;
+            }
+        
+            &-link {
+                color: #007bff;
+                text-decoration: none;
+                transition: color 0.3s;
+        
+                &:hover {
+                    color: #0056b3;
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
 
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-.contact-item {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-bottom: 1px solid #eee;
-}
+@media screen and (max-width: 1024px) {
 
-.contact-label {
-    font-weight: bold;
-    color: #555;
-}
+    .contact {
 
-.contact-link {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s;
+        &-title {
+            font-size: 30px;
+        }
 
-    &:hover {
-        color: #0056b3;
-        text-decoration: underline;
-    }
-}
+        &-list {
 
-@media (max-width: 768px) {
-    .contact-container {
-        width: 90%;
-        padding: 20px;
+            &-item {
+
+                &-label,
+                &-link {
+                font-size: 22px;
+            }
+        }
+            }
     }
 }
