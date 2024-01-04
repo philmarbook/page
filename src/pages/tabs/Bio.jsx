@@ -10,6 +10,7 @@ function Bio({srcImage}) {
                 <p>Privilégiant l'auto-édition pour sa liberté littéraire et son indépendance éditoriale, Philmar a pu publier ses deux premiers livres grâce au succès d'un financement participatif.</p>
                 <p>En tant que co-fondateur il est très impliqué dans la mise en place concrète de l'écolieu Art-Terre en Savoie.</p>
                 <p>Philmar poursuit son engagement dans ce projet, et continue de mener plusieurs projets dans les domaines de la musique, de l'astrologie et de l'écriture.</p>
+                <span id="plus-dinfos" className="contact-list-item-label">Pour plus d'informations : <a href="https://linktr.ee/philmarlinks" className="contact-list-item-link">Les liens de Philmar</a></span>
             </div>
             <div className='bio-image'>
                 <img className="bio-image-file" src={srcImage} alt="Philmar"></img>

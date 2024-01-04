@@ -21,10 +21,6 @@ function Contact() {
                     <span className="contact-list-item-label">💬 Telegram : </span> 
                     <a href="https://t.me/philmarzic" className="contact-list-item-link">Envoyer un message</a>
                 </li>
-                <li className="contact-list-item">
-                    <span className="contact-list-item-label">🔗 Mes liens : </span> 
-                    <a href="https://linktr.ee/philmarlinks" className="contact-list-item-link">linktr.ee</a>
-                </li>
             </ul>
         </div>
     )
