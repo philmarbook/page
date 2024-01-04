@@ -6,7 +6,7 @@ function Home() {
             <div className='home-header'>
                 <ul>
                     <li>Philmar - Auteur</li>
-                    <li>2 livres en auto-édition</li>
+                    <li id='two-books'>2 livres en auto-édition</li>
                 </ul>
             </div>
             <div className="home-caption">

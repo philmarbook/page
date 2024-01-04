@@ -70,3 +70,26 @@
             }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .contact {
+
+        padding: 2rem;
+        margin: 0 2rem 2rem 2rem;
+
+        &-title {
+            font-size: 25px;
+        }
+
+        &-list {
+
+            &-item {
+
+                &-label,
+                &-link {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

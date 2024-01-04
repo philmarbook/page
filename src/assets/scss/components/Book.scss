@@ -214,3 +214,73 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .book {
+        margin: 2rem 1rem 0 1rem;
+
+        &-title {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        &-price {
+            font-size: 20px;
+            margin: 0.5rem 0;
+        }
+
+        &-button {
+            margin-top: 1rem;
+        }
+
+        &-caption {
+            margin-bottom: 2rem;
+
+            &-bottom {
+
+                &-bulletpoints {
+                    min-width: 20rem;
+                    margin-left: 1rem;
+                    margin-top: 2rem;
+
+                    &-text {
+                        font-size: 20px;
+                    }
+
+                }
+
+                
+            }
+
+            #book-caption-part0a,
+            #book-caption-part0b {
+                font-size: 19px;
+                text-align: justify;
+            }
+
+            #book-caption-part0a {
+                margin-bottom: 1.5rem;
+            }
+
+            #book-caption-part0b {
+                margin-bottom: 1rem;
+            }
+
+            #book-caption-part1aa,
+            #book-caption-part1ba,
+            #book-caption-part1ca {
+                margin-top: 2rem;
+            }
+
+            #book-caption-part1aa,
+            #book-caption-part1ab,
+            #book-caption-part1ba,
+            #book-caption-part1bb,
+            #book-caption-part1ca,
+            #book-caption-part1cb {
+                font-size: 17px;
+                text-align: justify;
+            }
+        }
+    }
+}

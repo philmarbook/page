@@ -10,6 +10,14 @@
         justify-content: center;
         text-align: center;
 
+        #plus-dinfos {
+            font-size: 25px;
+
+            a {
+                font-size: 25px;
+            }
+        }
+
         &-title {
             font-size: 40px;
         }
@@ -20,7 +28,7 @@
             line-height: 1.6; 
             margin: 0 0 2rem; 
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-            text-align: left;
+            text-align: justify;
         }
     }
     &-image {
@@ -58,15 +66,30 @@
 
 @media screen and (max-width: 1200px) {
     .bio {
-
         margin-top: 0;
 
         &-caption {
             margin: 0 3rem 3rem 3rem;
 
             p {
-                text-align: justify;
                 font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bio {
+        
+        &-caption {
+            margin: 0 1.3rem;
+
+            #plus-dinfos {
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 15px;
             }
         }
     }
