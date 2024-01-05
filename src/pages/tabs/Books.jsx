@@ -8,7 +8,7 @@ function Books() {
         <>
             <div className='books'>
                 <Book
-                title="Les Humains adorent les Histoires ! 📖"
+                title="Les Humains adorent les Histoires! 📖"
                 imageSrc={princesseDataImage}
                 bookPrice="Broché : 15.00€"
                 epubPrice="Digital : 6.00€"
