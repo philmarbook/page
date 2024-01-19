@@ -4,7 +4,7 @@ import NotFound from '../pages/NotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => (
-  <Router basename='/philmarbook'>
+  <Router basename='/page'>
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="*" element={<NotFound />} />
