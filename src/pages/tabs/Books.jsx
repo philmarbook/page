@@ -10,15 +10,15 @@ function Books() {
                 <Book
                 title="Les Humains adorent les Histoires! 📖"
                 imageSrc={princesseDataImage}
-                bookPrice="Broché : 15.00€"
-                epubPrice="Digital : 6.00€"
+                bookPrice="Broché : 18.00€"
+                epubPrice="Digital : 6.00€ (PDF, ePub, Mobi)"
                 url="https://www.pokepedia.fr/Pikachu"
-                intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs dialogues, descriptions et réflexions?"
+                intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs, dialogues, descriptions et réflexions? Si vous êtes intrigués, alors vous serez conquis, envoûtés par Les Humains adorent les Histoires !"
                 intro01="Si vous êtes intrigués, vous serez conquis, envoûtés par Les Humains adorent les Histoires."
                 caption00a="📝 Thématique Générale : "
                 caption00b="'Les Humains adorent les Histoires !' est un recueil de nouvelles et d'essais qui explore la fascination des humains pour les récits. Il aborde l'influence des histoires sur notre compréhension du monde, nos émotions, nos expériences et nos choix de vie."
                 caption01a="✍️ Style et Expression : "
-                caption01b="L'écriture est engageante et réfléchie, mêlant prose descriptive et analyse introspective pour captiver le lecteur dans le récit et stimuler la réflexion. L'auteur utilise une variété de techniques narratives, avec un style d'écriture à la fois accessible et profond."
+                caption01b="L'écriture est engageante et réfléchie, mêlant prose descriptive et analyse introspective pour captiver le lecteur dans le récit et stimuler la réflexion, sans omettre une forme d'humour. L'auteur utilise une variété de techniques narratives, avec un style d'écriture à la fois accessible et profond."
                 caption02a="📚 Diversité des Sujets : "
                 caption02b="Le recueil couvre une large gamme d'émotions et d'expériences, depuis l'identité personnelle et collective aux analyses de la culture et de la société, en passant par les mythes et légendes, soulignant le rôle des histoires dans la vie humaine."
                 bulletpoint0="📌 Reliure : Dos Carré Collé"
@@ -32,8 +32,8 @@ function Books() {
                 <Book
                 title="Mélomorphoses 💫"
                 imageSrc={leveToiEtCodeImage}
-                bookPrice="Broché : 15.00€"
-                epubPrice="Digital : 6.00€"
+                bookPrice="Broché : 18.00€"
+                epubPrice="Digital : 6.00€ (PDF, ePub, Mobi)"
                 url="https://www.pokepedia.fr/Mewtwo"
                 intro00="Êtes vous prêts à plonger dans les sentiments, les ferveurs, et les rêveries d'un ouvrage qui, tour à tour cisèle les mots ou les impulse?"
                 intro01="Si ça vous interpelle, Mélomorphoses vous touchera profondément."
