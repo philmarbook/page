@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/page/static/css/main.4982f7bc.css",
+    "main.js": "/page/static/js/main.53364b51.js",
+    "static/media/background.jpg": "/page/static/media/background.7abfa1000869e2827a43.jpg",
+    "static/media/philmar.png": "/page/static/media/philmar.52939d9c2d59b0297802.png",
+    "static/media/princesse-data.jpg": "/page/static/media/princesse-data.87749b791007af66a813.jpg",
+    "static/media/leve-toi-et-code.jpg": "/page/static/media/leve-toi-et-code.50c6cbbb533e1e25cd71.jpg",
+    "static/media/paypal-button.png": "/page/static/media/paypal-button.cc21767c81c3bf0b7d1b.png",
+    "index.html": "/page/index.html",
+    "main.4982f7bc.css.map": "/page/static/css/main.4982f7bc.css.map",
+    "main.53364b51.js.map": "/page/static/js/main.53364b51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4982f7bc.css",
+    "static/js/main.53364b51.js"
+  ]
+}
