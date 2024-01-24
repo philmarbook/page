@@ -1,18 +1,54 @@
 import '../assets/scss/components/Book.scss';
+import paypalButton from '../assets/images/paypal-button.png';
 
-function Book({ title, imageSrc, bookPrice, epubPrice, url,intro00 ,intro01, caption00a, caption00b, caption01a, caption01b, caption02a, caption02b, bulletpoint0, bulletpoint1, bulletpoint2, bulletpoint3, bulletpoint4, bulletpoint5 }) {
+function Book({ title, imageSrc,
+    bookPrice, epubPrice,
+    intro00 ,intro01, caption00a,
+    caption00b, caption01a, caption01b, caption02a, caption02b,
+    bulletpoint0, bulletpoint1, bulletpoint2, bulletpoint3, bulletpoint4, bulletpoint5,
+    ebookPriceValue, paperbackPriceValue
+}) {
     return (
         <div className="book">
+
             <div id="book-container">
                 <h1 className="book-title">{title}</h1>
                 <img className="book-image" src={imageSrc} alt={title} />
                 <p className="book-price">{bookPrice}</p>
                 <p className="book-price">{epubPrice}</p>
-                <div className='book-button'>
-                    <a href={url} target="_blank" rel="noopener noreferrer">
-                        <button className="book-button-text">Acheter</button>
-                    </a>
-                </div>
+
+                <form className="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="HMBT8AKXFM4LU" />
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="on0" value="Format"/>
+                                    Format
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="os0">
+                                        <option value="Broché (frais livraison inclus)">
+                                            {paperbackPriceValue}
+                                        </option>
+                                        <option value="Ebook">
+                                            {ebookPriceValue}
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="hidden" name="currency_code" value="EUR" />
+                    <input type="image" src={paypalButton} border="0" 
+                        name="submit" title="PayPal, votre réflexe sécurité pour payer en ligne." alt="Acheter" />
+                </form>
+
+
+
             </div>
             <div className="book-caption">
                 <div className='book-caption-top'>

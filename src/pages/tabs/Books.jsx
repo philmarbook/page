@@ -11,8 +11,7 @@ function Books() {
                 title="Les Humains adorent les Histoires! 📖"
                 imageSrc={princesseDataImage}
                 bookPrice="Broché : 18.00€"
-                epubPrice="Digital : 6.00€ (PDF, ePub, Mobi)"
-                url="https://www.pokepedia.fr/Pikachu"
+                epubPrice="eBook (PDF, ePub, Mobi) : 6.00€"
                 intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs, dialogues, descriptions et réflexions? Si vous êtes intrigués, alors vous serez conquis, envoûtés par Les Humains adorent les Histoires !"
                 intro01="Si vous êtes intrigués, vous serez conquis, envoûtés par Les Humains adorent les Histoires."
                 caption00a="📝 Thématique Générale : "
@@ -26,14 +25,19 @@ function Books() {
                 bulletpoint2="📌 Impression intérieur : Noir et blanc"
                 bulletpoint3="📌 Format : 16x24"
                 bulletpoint4="📌 Papier Intérieur : Bouffant 90g blanc"
-                bulletpoint5="📌 Pelliculage Couverture : Brillant"/>
+                bulletpoint5="📌 Pelliculage Couverture : Brillant"
+                // PayPal variables
+                ebookPriceValue="eBook 6.00 EUR"
+                paperbackPriceValue="Broché (frais de livraisons inclus) 23.00 EUR"
+                />
+                
             </div>
             <div className='books'>
                 <Book
                 title="Mélomorphoses 💫"
                 imageSrc={leveToiEtCodeImage}
                 bookPrice="Broché : 18.00€"
-                epubPrice="Digital : 6.00€ (PDF, ePub, Mobi)"
+                epubPrice="eBook (PDF, ePub, Mobi) : 6.00€"
                 url="https://www.pokepedia.fr/Mewtwo"
                 intro00="Êtes vous prêts à plonger dans les sentiments, les ferveurs, et les rêveries d'un ouvrage qui, tour à tour cisèle les mots ou les impulse?"
                 intro01="Si ça vous interpelle, Mélomorphoses vous touchera profondément."
@@ -48,7 +52,11 @@ function Books() {
                 bulletpoint2="📌 Impression intérieur : Noir et blanc"
                 bulletpoint3="📌 Format : 16x24"
                 bulletpoint4="📌 Papier Intérieur : Bouffant 90g blanc"
-                bulletpoint5="📌 Pelliculage Couverture : Brillant"/>
+                bulletpoint5="📌 Pelliculage Couverture : Brillant"
+                // PayPal variables
+                ebookPriceValue="EBook 6.00 EUR"
+                paperbackPriceValue="Broché (frais de livraisons inclus) 23.00 EUR"
+                />
             </div>
         </>
     )
