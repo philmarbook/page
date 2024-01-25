@@ -5,7 +5,7 @@ import Bio from './tabs/Bio';
 import Contact from './tabs/Contact'; 
 import '../assets/scss/pages/Main.scss';
 import { Link } from 'react-scroll';
-import philmarImage from '../assets/images/philmar.png';
+import philmarImage from '../assets/images/philmar.jpeg';
 
 
 function Main() {

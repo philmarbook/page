@@ -1,5 +1,5 @@
-import princesseDataImage from '../../assets/images/princesse-data.jpg';
-import leveToiEtCodeImage from '../../assets/images/leve-toi-et-code.jpg';
+import lesHumains from '../../assets/images/les-humains.jpeg';
+import melomorphoses from '../../assets/images/melomorphoses.jpeg';
 import Book from "../../components/Book";
 
 
@@ -9,7 +9,7 @@ function Books() {
             <div className='books'>
                 <Book
                 title="Les Humains adorent les Histoires! 📖"
-                imageSrc={princesseDataImage}
+                imageSrc={lesHumains}
                 bookPrice="Broché : 18.00€"
                 epubPrice="eBook (PDF, ePub, Mobi) : 6.00€"
                 intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs, dialogues, descriptions et réflexions? Si vous êtes intrigués, alors vous serez conquis, envoûtés par Les Humains adorent les Histoires !"
@@ -35,7 +35,7 @@ function Books() {
             <div className='books'>
                 <Book
                 title="Mélomorphoses 💫"
-                imageSrc={leveToiEtCodeImage}
+                imageSrc={melomorphoses}
                 bookPrice="Broché : 18.00€"
                 epubPrice="eBook (PDF, ePub, Mobi) : 6.00€"
                 url="https://www.pokepedia.fr/Mewtwo"
