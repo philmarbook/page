@@ -21,7 +21,7 @@ function Books() {
                 caption02a="📚 Diversité des Sujets : "
                 caption02b="Le recueil couvre une large gamme d'émotions et d'expériences, depuis l'identité personnelle et collective aux analyses de la culture et de la société, en passant par les mythes et légendes, soulignant le rôle des histoires dans la vie humaine."
                 bulletpoint0="📌 Reliure : Dos Carré Collé"
-                bulletpoint1="📌 Nombre de pages total : 90"
+                bulletpoint1="📌 Nombre de pages total : 110"
                 bulletpoint2="📌 Impression intérieur : Noir et blanc"
                 bulletpoint3="📌 Format : 16x24"
                 bulletpoint4="📌 Papier Intérieur : Bouffant 90g blanc"
