@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/page/static/css/main.3ba75016.css",
+    "main.js": "/page/static/js/main.3e0f7b5b.js",
+    "static/media/background.jpg": "/page/static/media/background.7abfa1000869e2827a43.jpg",
+    "static/media/philmar.jpeg": "/page/static/media/philmar.16fccaff699cf6c596d4.jpeg",
+    "static/media/les-humains.jpeg": "/page/static/media/les-humains.20c50846a37315884f0c.jpeg",
+    "static/media/melomorphoses.jpeg": "/page/static/media/melomorphoses.80b98b2e2eebea851171.jpeg",
+    "static/media/paypal-button.png": "/page/static/media/paypal-button.cc21767c81c3bf0b7d1b.png",
+    "index.html": "/page/index.html",
+    "main.3ba75016.css.map": "/page/static/css/main.3ba75016.css.map",
+    "main.3e0f7b5b.js.map": "/page/static/js/main.3e0f7b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba75016.css",
+    "static/js/main.3e0f7b5b.js"
+  ]
+}
