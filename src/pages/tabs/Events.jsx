@@ -10,10 +10,10 @@ function Events() {
                     <h2 className='events-block-date'>Jeudi 22 février 18:00 à 19:30</h2>
                     <p className='events-block-location'>82 Rue du Mont Joly, 74700 SALLANCHES, France</p>
                     <p className='events-block-number'>04 50 93 92 40</p>
-                    <div>
-                        <p className='events-block-program'></p>
-                        <p className='events-block-program'></p>
-                        <p className='events-block-program'></p>
+                    <div className='events-block-program-container'>
+                        <p className='events-block-program'>18h Dédicaces</p>
+                        <p className='events-block-program'>18h15 Concert</p>
+                        <p className='events-block-program'>19h Dédicaces-Échanges</p>
                     </div>
                 </div>
                 <div className='events-block'>
@@ -21,8 +21,8 @@ function Events() {
                     <h2 className='events-block-date'>Samedi 16 mars 17:00 à 19:00</h2>
                     <p className='events-block-location'>104 rue de la République, 73200 ALBERTVILLE, France</p>
                     <p className='events-block-number'>04 79 32 00 91</p>
-                    <div>
-                        <p className='events-block-program'></p>
+                    <div className='events-block-program-container'>
+                        <p className='events-block-program'>18h Dédicaces, Concert et Échanges</p>
                     </div>
                 </div>
             </div>

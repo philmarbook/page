@@ -12,11 +12,12 @@
         align-items: center;
         border: solid 3px #333;
         border-radius: 20px;
-        margin: 1rem;
+        margin: 1rem 3rem;
         background-color: #333;
         padding: 1rem 2rem 0 2rem;
         transition: transform 0.2s;
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+        justify-content: space-between;
 
         &:hover {
             transform: scale(1.02);
@@ -29,6 +30,21 @@
 
         &-date, &-title, &-location, &-number, &-program {
             color: #fff;
+            text-align: center;
+        }
+
+        &-program-container {
+            margin-bottom: 1rem;
+        } 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .events {
+        
+        &-container {
+
+            flex-direction: column;
         }
     }
 }
