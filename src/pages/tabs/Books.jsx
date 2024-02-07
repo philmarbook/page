@@ -12,7 +12,7 @@ function Books() {
                 imageSrc={lesHumains}
                 bookPrice="Broché : 18.00€"
                 epubPrice="eBook (PDF, ePub, Mobi) : 6.00€"
-                intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs, dialogues, descriptions et réflexions? Si vous êtes intrigués, alors vous serez conquis, envoûtés par Les Humains adorent les Histoires !"
+                intro00="Êtes vous prêts à voyager dans les contrées inconnues, les univers étranges et l'humour insolite d'un ouvrage déroulant avec moult couleurs, dialogues, descriptions et réflexions?"
                 intro01="Si vous êtes intrigués, vous serez conquis, envoûtés par Les Humains adorent les Histoires."
                 caption00a="📝 Thématique Générale : "
                 caption00b="'Les Humains adorent les Histoires !' est un recueil de nouvelles et d'essais qui explore la fascination des humains pour les récits. Il aborde l'influence des histoires sur notre compréhension du monde, nos émotions, nos expériences et nos choix de vie."
