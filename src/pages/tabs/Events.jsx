@@ -22,7 +22,7 @@ function Events() {
                     <p className='events-block-location'>104 rue de la République, 73200 ALBERTVILLE, France</p>
                     <p className='events-block-number'>04 79 32 00 91</p>
                     <div className='events-block-program-container'>
-                        <p className='events-block-program'>18h Dédicaces, Concert et Échanges</p>
+                        <p className='events-block-program'>17h Dédicaces, Concert et Échanges</p>
                     </div>
                 </div>
             </div>
